@@ -1,0 +1,31 @@
+{
+  "name": "create-chief-app",
+  "version": "0.01.0",
+  "main": "index.js",
+  "author": "Terris James Kremer",
+  "license": "MIT",
+  "description": "Create a Chief app with one command",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Terris/chief.git",
+    "directory": "packages/create-chief-app"
+  },
+  "bin": {
+    "create-chief-app": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "yargs": "^15.4.1"
+  },
+  "scripts": {
+    "build": "yarn cross-env NODE_ENV=production babel src -d dist --delete-dir-on-start",
+    "prepublishOnly": "yarn build",
+    "build:watch": "nodemon --ignore dist --exec \"yarn build\""
+  }
+}

@@ -4,4 +4,13 @@
   "workspaces": [
     "packages/*"
   ],
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2"
+  }
 }
