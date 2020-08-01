@@ -20,7 +20,7 @@ if (!targetDir) {
 }
 
 try {
-  download('github:terris/create-chief-app#main', 'test/tmp', function (err) {
+  download('github:terris/create-chief-app#main', targetDir, function (err) {
     console.log('Success!')
     console.log('cd to project and yarn')
   })
