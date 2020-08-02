@@ -8,7 +8,8 @@
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.0",
     "@babel/node": "^7.10.5",
-    "@babel/preset-env": "^7.11.0"
+    "@babel/preset-env": "^7.11.0",
+    "parcel": "^2.0.0-beta.1"
   },
   "dependencies": {
     "cross-env": "^7.0.2"
