@@ -1,2 +1,2 @@
 import React from 'react'
-export const Auth = ({ children } = <>{children}</>)
+export const Auth = ({ children }) => <>{children}</>

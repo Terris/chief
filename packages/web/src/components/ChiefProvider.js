@@ -4,7 +4,7 @@ import { Auth } from './auth'
 
 export const ChiefProvider = ({ children, apolloClient }) => {
   return (
-    <ApolloProvider apolloClient={client}>
+    <ApolloProvider apolloClient={apolloClient}>
       <Auth>{children}</Auth>
     </ApolloProvider>
   )
