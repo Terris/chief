@@ -1,6 +1,6 @@
 {
   "name": "chief-web",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "dist/index.js",
   "author": "Terris James Kremer",
   "license": "MIT",
