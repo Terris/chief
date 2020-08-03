@@ -1,7 +1,7 @@
 {
   "name": "create-chief-app",
   "version": "0.3.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Terris James Kremer",
   "license": "MIT",
   "description": "Create a Chief app with one command",

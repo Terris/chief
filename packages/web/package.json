@@ -1,8 +1,7 @@
 {
   "name": "chief-web",
-  "public": false,
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Terris James Kremer",
   "license": "MIT",
   "repository": {
@@ -29,5 +28,9 @@
     "graphql": "^15.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
