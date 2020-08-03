@@ -1,30 +1,33 @@
 {
-  "name": "create-chief-app",
-  "version": "0.3.0",
+  "name": "chief-web",
+  "public": false,
+  "version": "0.1.0",
   "main": "index.js",
   "author": "Terris James Kremer",
   "license": "MIT",
-  "description": "Create a Chief app with one command",
   "repository": {
     "type": "git",
     "url": "https://github.com/Terris/chief.git",
-    "directory": "packages/create-chief-app"
+    "directory": "packages/web"
   },
   "bin": {
-    "create-chief-app": "./dist/index.js"
+    "web": "./dist/index.js"
   },
   "files": [
     "dist"
   ],
-  "engines": {
-    "node": ">=12"
-  },
-  "dependencies": {
-    "download-git-repo": "^3.0.2",
-    "yargs": "^15.4.1"
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "*"
   },
   "scripts": {
     "build": "parcel build src/index.js --no-source-maps",
     "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.1.1",
+    "graphql": "^15.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1"
   }
 }

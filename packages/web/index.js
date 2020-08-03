@@ -1,0 +1,1 @@
+var e,l,r=require("@apollo/client").ApolloProvider,n=(e=require("react"))&&e.__esModule?e.default:e;var t=(l=n.createElement(n.Fragment,null,children),children=l.children,l);exports.ChiefProvider=function(e){var l=e.children;e.apolloClient;return n.createElement(r,{apolloClient:client},n.createElement(t,null,l))};
